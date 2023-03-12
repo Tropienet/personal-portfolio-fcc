@@ -86,3 +86,19 @@ body {
 .link:active {
     color: black;
 }
+
+footer {
+    background-color: #4A4A48;
+    color: #d8dad3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    margin: 25px 0;
+}
+
+footer > p > a {
+    color: #d8dad3;
+    text-decoration: none;
+}
