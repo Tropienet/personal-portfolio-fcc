@@ -10,6 +10,39 @@ body {
     flex-direction: column;
 }
 
+#navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #566246;
+    color: #d8dad3;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.website-title {
+    margin-left: 15px;
+}
+
+.navigation-links {
+    align-self: center;
+    margin-right: 15px;
+}
+
+.navigation-links > a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #F7C548;
+}
+
+#welcome-section {
+    width: 100%;
+    padding: 70px 0;
+    margin: 30px 0;
+    background-color: #4A4A48;
+    color: #f1F2EB;
+}
+
 .welcome-msg {
     text-align: center;
 }
